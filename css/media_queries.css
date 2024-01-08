@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+    nav{
+text-align: center;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+    .main_img{
+        display: none;
+    }
+    .frame {
+        /* margin-left:15% ; */
+        width: 260px;
+        height: 150px;
+        background-color: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 2px rgba(128, 128, 128, 0.25);
+        padding-left: 20px;
+        padding-top: 10px;
+        border: 2px solid rgba(128, 128, 128, 0.218);
+      }
+      .container {
+        max-width: var(--container);
+        padding: 0 1rem;
+        margin: 0 auto;
+        
+      }
+      .main_h {
+        color: #002966;
+        font-weight: bold;
+        position: relative;
+        font-size: 30px;
+      }
+   
+    .blogs img{
+     display: none;
+    }
+    .news img{
+        display: none;
+       }
+}
+@media only screen and (min-width: 988px) and (max-width: 1245px)  {
+.logo{
+    width: 120px;
+    height: 60px;
+}
+    .nav-link{
+    font-size: 13px;
+}
+.con{
+    font-size: 14px;
+}
+.nav-item{
+padding-right: 5px;
+}
+.btn-content{
+font-size: 10px;
+padding: 0px 10px;
+}
+
+}

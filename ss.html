@@ -1,0 +1,36 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index Page</title>
+</head>
+<body>
+
+  <div class="tab-buttons"> 
+    <button id="education-btn" class="button btn-txt tab active shadow" onclick="navigateAndHighlight('education')">Button 1</button>
+    <button id="finance-btn"   class="button btn-txt tab shadow" onclick="navigateAndHighlight('finance')">Button 2</button>
+    <button id="transport-btn" class="button btn-txt tab shadow" onclick="navigateAndHighlight('transport')">Button 3</button>
+    <button id="education-btn"  class="button btn-txt tab shadow" onclick="navigateAndHighlight('education')" >Button 1</button>
+    <button id="finance-btn"    class="button btn-txt tab  shadow" onclick="navigateAndHighlight('finance')" >Button 1</button>
+    <button id="transport-btn"  class="button btn-txt tab  shadow" onclick="navigateAndHighlight('transport')" >Button 1</button>
+    <button id="realestate-btn" class="button btn-txt tab  shadow" onclick="navigateAndHighlight('realestate')" >Button 1</button>
+    <button id="healthcare-btn" class="button btn-txt tab  shadow" onclick="navigateAndHighlight('healthcare')" >Button 1</button>
+    <button id="technology-btn" class="button btn-txt tab  shadow" onclick="navigateAndHighlight('technology')" >Button 1</button>
+    <button id="telecom-btn"    class="button btn-txt tab  shadow" onclick="navigateAndHighlight('telecom')" >Button 1</button>
+    <button id="retail-btn"     class="button btn-txt tab  shadow" onclick="navigateAndHighlight('retail')" >Button 1</button>
+  
+  </div>
+
+  <script>
+    const navigateAndHighlight = (tabName) => {
+      // Save the selected tab in localStorage
+      localStorage.setItem('selectedTab', tabName);
+      window.location.href = 'industries-copy.html';
+    };
+  </script>
+
+</body>
+</html>
